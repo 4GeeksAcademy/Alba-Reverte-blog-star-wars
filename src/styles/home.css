@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+
+
+.imagen-logo{
+    width: 75px;
+    margin-left: 5%;
+}
+
+.btn-fav{
+    margin-right: 25%;
+}
+
+.card-characters{
+    left: 20px;
+}
+
+.card-planets{
+    position: absolute;
+    top:100%
+    
+}
+
+.card-vehicles{
+    display: flex;
+    position: absolute;
+    top:200%
+}
+
+.card-img-top{
+    width: 200px;
+}
+
+/* .navbar-scroll{
+    max-width: 100%;
+    height: auto
+} */
