@@ -12,17 +12,6 @@ import { Link } from "react-router-dom";
         }
     
 
-    // const [isFavorite, setIsFavorite] = useState(store.favorites.some(item => item.uid === vehicle.uid));
-
-
-    // const toggleFavorite = () => {
-    //     if (isFavorite) {
-    //       actions.removeFavorite(vehicle); // Acción para remover el favorito
-    //     } else {
-    //       actions.addFavorite(vehicle); // Acción para agregar el favorito
-    //     }
-    //     setIsFavorite(!isFavorite);
-    //   };
     
     return (
         <div className="col">
@@ -33,18 +22,7 @@ import { Link } from "react-router-dom";
                     <h5 className="card-title">{vehicle.name}</h5>
                     <div className="text-end">
                     <Link to={`/detailVehicle/${vehicle.uid}`} type="button" className="btn btn-primary">Ver más</Link>
-                    <button type="button" className={`btn ${isFavorite?'btn-danger' : 'btn-outline-primary'} mx-3`} onClick={toggleFavorite}><i className="fa-solid fa-heart"></i></button>
-                     {/* <Link to={`/detailVehicle/${vehicle.uid}`} type="button" className="btn btn-primary">
-              Ver más
-            </Link>
-            <button
-              type="button"
-              className={`btn ${isFavorite ? "btn-danger" : "btn-outline-primary"} mx-3`}
-              onClick={toggleFavorite}
-            >
-              <i className="fa-solid fa-heart"></i>
-            </button> */}
-                    
+                    <button type="button" className={`btn ${isFavorite?'btn-danger' : 'btn-outline-primary'} mx-3`} onClick={toggleFavorite}><i className="fa-solid fa-heart"></i></button> 
                     </div>
                     
                 </div>

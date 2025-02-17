@@ -131,43 +131,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 					}
 				},
 
-				// getFavorites: async () => {
-				// 	const store = getStore();
-				// 	try {
-				// 		const resp = await fetch("https://www.swapi.tech/api/people/", {
-				// 			headers: {
-								
-				// 			}
-				// 		}
-				// 		)
-				// 		if (!resp.ok) {
-				// 			throw new Error(`Http error! status: ${resp.status}`);
-				// 		}
-				// 		const data = await resp.json();
-				// 		console.log(data);
-	
-				// 		setStore({ user: { ...store.user, following: data } });
-				// 	} catch (error) {
-				// 		console.error(error);
-				// 	}
-				// },
-
-				
-				  
-					// addFavorite: (vehicle) => {
-					//   setStore({
-					// 	...store,
-					// 	favorites: [...store.favorites, vehicle], // Agregar el vehículo a favoritos
-					//   });
-					// },
-					// removeFavorite: (vehicle) => {
-					//   setStore({
-					// 	...store,
-					// 	favorites: store.favorites.filter((item) => item.uid !== vehicle.uid), // Eliminar vehículo de favoritos
-					//   });
-					// },
-				  
-				  
 				
 
 			loadSomeData: () => {

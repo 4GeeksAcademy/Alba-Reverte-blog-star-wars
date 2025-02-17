@@ -18,15 +18,7 @@ export const Navbar = () => {
 			{/* <img className="imagen-logo" src="https://www.teleadhesivo.com/es/img/as555-jpg/folder/products-listado-merchanthover/vinilos-decorativos-logo-star-wars-.jpg" alt="Logo" /> */}
 			<div className="ml-auto">
 				<Link to="/demo">
-					<div className="btn-group" role="group">
-						<button type="button" className="btn-fav btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-							Favoritos
-						</button>
-						<ul className="dropdown-menu">
-							{/* <li><a className="dropdown-item" href="#">Dropdown link</a></li>
-							<li><a className="dropdown-item" href="#">Dropdown link</a></li> */}
-						</ul>
-					</div>
+					
 				</Link>
 			</div>
 		</nav>
